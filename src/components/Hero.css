@@ -1,0 +1,202 @@
+
+.hero {
+    background-color: #e0f7e0;
+    width: 1440px;
+    height: 729px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+  }
+  
+ 
+  .hero-header {
+    width: 1440px;
+    height: 91px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 195px;
+    z-index: 100;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+ 
+  .hero-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .hero-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  .hero-nav a:hover {
+    color: #555;
+  }
+  
+ 
+  .auth-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .auth-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .auth-link:hover {
+    color: #555;
+  }
+  
+  .divider {
+    color: #333;
+  }
+  
+  .icon-group {
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+  }
+  
+  .icon {
+    color: #333;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    color: #555;
+  }
+  
+ 
+  .hero-content {
+    position: absolute;
+    width: 1050px;
+    height: 548px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .season-tag {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .hero-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 80%;
+    margin-bottom: 40px;
+  }
+  
+  .shop-now-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #555;
+  }
+  
+  
+  @media (max-width: 1480px) {
+    .hero {
+      width: 100%;
+      max-width: 1440px;
+    }
+    
+    .hero-header {
+      width: 100%;
+      padding: 0 5%;
+    }
+    
+    .hero-content {
+      width: 80%;
+      padding-top: 80px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      height: auto;
+      padding-bottom: 60px;
+    }
+    
+    .hero-header {
+      height: 70px;
+      padding: 0 20px;
+    }
+    
+    .hero-nav {
+      display: none;
+    }
+    
+    .hero-content {
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
+      width: 90%;
+      margin: 70px auto 0;
+      padding: 40px 0;
+    }
+    
+    .hero-title {
+      font-size: 48px;
+    }
+  }
