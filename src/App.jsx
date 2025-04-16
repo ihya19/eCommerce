@@ -1,11 +1,12 @@
-import React from 'react';
-import Hero from './components/Hero'; 
+
+import React from "react";
+import HomePage from "./pages/HomePages";
+
 
 function App() {
   return (
     <div className="App">
-      <Hero />
-      {/* Other components can go here */}
+      <HomePage />
     </div>
   );
 }

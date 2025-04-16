@@ -1,0 +1,64 @@
+.shop-cards-container {
+    width: 1440px;
+    display: flex;
+    gap: 24px;
+    padding: 130px 48px; /* 130px top and bottom padding */
+    margin: 0 auto; /* center the container */
+}
+
+.shop-card {
+    width: 713px; /* fixed width */
+    height: 300px; /* fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 48px;
+    background-size: cover;
+    background-position: center;
+    color: #1e1e1e;
+    position: relative;
+}
+
+.card1 {
+    background-color: darkseagreen;
+}
+
+.card2 {
+    background-color: salmon;
+}
+
+.shop-card-subtitle {
+    font-size: 14px;
+    color: #6b7280; 
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.shop-card-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.shop-card-link {
+    font-size: 14px;
+    margin-top: 8px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 48px;
+    left: 48px;
+}
+
+.shop-card-divider {
+    width: 30px;
+    height: 1px;
+    background-color: #1e1e1e;
+    margin: 16px 0;
+}
+
+.unique-life {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
