@@ -1,0 +1,172 @@
+
+.featured-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .featured-header {
+    margin-bottom: 50px;
+  }
+  
+  .small-title {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 10px;
+  }
+  
+  .main-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #737373;
+    line-height: 1.6;
+  }
+  
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .product-card {
+    width: 230px;
+    background: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    position: relative;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #E74040;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .card-icons {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card-icons button {
+    background: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .language-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .language {
+    color: #23A6F0;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .graphic-design {
+    color: #737373;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #252B42;
+    margin-bottom: 5px;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 15px;
+  }
+  
+  .sales {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    margin-bottom: 15px;
+  }
+  
+  .old-price {
+    font-size: 16px;
+    color: #BDBDBD;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  
+  .new-price {
+    font-size: 16px;
+    color: #23856D;
+    font-weight: bold;
+  }
+  
+  .info {
+    font-size: 12px;
+    color: #737373;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .learn-btn {
+    background: none;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .learn-btn:hover {
+    background: #23A6F0;
+    color: white;
+  }
