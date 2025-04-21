@@ -2,13 +2,13 @@
     width: 1440px;
     display: flex;
     gap: 24px;
-    padding: 130px 48px; /* 130px top and bottom padding */
-    margin: 0 auto; /* center the container */
+    padding: 130px 48px;
+    margin: 0 auto; 
 }
 
 .shop-card {
-    width: 713px; /* fixed width */
-    height: 300px; /* fixed height */
+    width: 713px; 
+    height: 300px; 
     display: flex;
     flex-direction: column;
     justify-content: center;

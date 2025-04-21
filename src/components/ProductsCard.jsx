@@ -32,7 +32,7 @@ const ProductCard = ({ image }) => (
         <span>Phn... 64 Let...</span>
         <span>22th..</span>
       </div>
-      <button className="learn-btn">Learn More ></button>
+      <button className="learn-btn">Learn More </button>
     </div>
   </div>
 );
